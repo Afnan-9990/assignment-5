@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(255, 234, 113);
+}
+.search-btn{
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    font-weight:200;
+    background-color: rgb(246, 135, 30);
+}
+#foodMenu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.foodlist{
+   background-color: white;
+  
+}
+
+.foodlist img{
+    width: 200px;
+}
+.foodlist h3{
+    text-align: center;
+    font-size: medium;
+}
+#mealDetail{
+    padding: 20px;
+    margin: 20px 300px;
+    text-align: justify;
+   
+}
+.mealInfo img{
+    width: 400px;
+    
+}
+.mealInfo{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(246, 135, 30);
+}
